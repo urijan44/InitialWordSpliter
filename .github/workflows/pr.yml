@@ -14,7 +14,7 @@ jobs:
         uses: kishikawakatsumi/xcresulttool@v1.7.1
         if: success() || failure() # always run even if the previous step fails
         with:
-          path: ./report.xcresult
+          path: **/report.xcresult
         env:
           secrets: ${{ secrets.ACTION_SECRET }}
 
