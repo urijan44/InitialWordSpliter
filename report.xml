@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="2" failures="0" time="32.725">
-    <testsuite name="InitialiWordSpliterTests.xctest" tests="2" failures="0" time="0.0023">
-        <testcase name="test()" time="0.001" classname="InitialiWordSpliterTests"/>
-        <testcase name="testExample()" time="0.0004" classname="InitialiWordSpliterTests"/>
+<testsuites tests="3" failures="1" time="46.689">
+    <testsuite name="InitialiWordSpliterTests.xctest" tests="3" failures="1" time="0.0827">
+        <testcase name="test_always_failed()" time="0.0806" classname="InitialiWordSpliterTests">
+            <failure message="short">XCTAssertEqual failed: ("무조건 실패하도록 테스트") is not equal to ("메밀꽃") (/Users/henry.lee/Dev_coinone/InitialWordSpliter/Tests/InitialiWordSpliterTests/InitialiWordSpliterTests.swift:27)</failure>
+        </testcase>
+        <testcase name="test()" time="0.0004" classname="InitialiWordSpliterTests"/>
+        <testcase name="testExample()" time="0.0006" classname="InitialiWordSpliterTests"/>
     </testsuite>
 </testsuites>

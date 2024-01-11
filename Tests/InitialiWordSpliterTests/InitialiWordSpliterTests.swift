@@ -20,4 +20,11 @@ final class InitialiWordSpliterTests: XCTestCase {
     // Then
     XCTAssertEqual(expected, $name)
   }
+    
+  func test_always_failed() {
+    // When
+    @InitialWordSpliter var name = "메밀꽃"
+    // Then
+    XCTAssertEqual("무조건 실패하도록 테스트", $name)
+  }
 }
