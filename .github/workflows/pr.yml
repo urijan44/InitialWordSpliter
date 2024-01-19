@@ -1,7 +1,6 @@
 name: Test Automiation Demo
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on: 
-  pull_request:
   workflow_dispatch:
     inputs:
       name:
