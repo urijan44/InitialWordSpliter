@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="2" failures="0" time="32.725">
+    <testsuite name="InitialiWordSpliterTests.xctest" tests="2" failures="0" time="0.0023">
+        <testcase name="test()" time="0.001" classname="InitialiWordSpliterTests"/>
+        <testcase name="testExample()" time="0.0004" classname="InitialiWordSpliterTests"/>
+    </testsuite>
+</testsuites>
